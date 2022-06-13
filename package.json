@@ -1,0 +1,38 @@
+{
+  "name": "quadratic",
+  "version": "1.0.0",
+  "description": "Solving quadratic equations",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test:unit": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "compile": "tslint -p tsconfig.json",
+    "clean"   : "rimraf lib",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm run test:unit && npm run compile && npm run clean",
+    "preversion" : "npm run lint",
+    "version" : "npm run format && git add -A src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.epam.com/iryna_rysenko/npm-package.git"
+  },
+  "keywords": ["quadratic", "equation"],
+  "author": "Iryna Rysenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.4",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.3",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "typescript": "^4.7.3"
+  }
+}
