@@ -1,6 +1,6 @@
 {
   "name": "quadratic-solve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Solving quadratic equations",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
