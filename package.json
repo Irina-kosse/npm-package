@@ -1,5 +1,5 @@
 {
-  "name": "quadratic",
+  "name": "quadratic-solve",
   "version": "1.0.0",
   "description": "Solving quadratic equations",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git.epam.com/iryna_rysenko/npm-package.git"
+    "url": "git+https://github.com/Irina-kosse/npm-package.git"
   },
   "keywords": ["quadratic", "equation"],
   "author": "Iryna Rysenko",

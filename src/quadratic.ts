@@ -1,10 +1,9 @@
-// program to solve quadratic equation
 export const quadraticEquation = (a : number, b : number, c : number)  => {
 
 const result = [];
 let root1; 
 let root2;
-// calculate discriminant
+
 const discriminant = b * b - 4 * a * c;
 
 // condition for real and different roots
