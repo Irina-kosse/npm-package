@@ -1,6 +1,6 @@
 {
   "name": "jsmp-infra-iryna-rysenko-quadratic-solve",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Solving quadratic equations",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
